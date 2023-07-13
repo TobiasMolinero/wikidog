@@ -1,0 +1,11 @@
+.carousel{
+    background-color: black;
+    height: fit-content;
+    height: fit-content;
+}
+
+.carousel img{
+    width: 40% ;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+}

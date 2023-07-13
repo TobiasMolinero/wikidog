@@ -1,0 +1,56 @@
+.container-img{
+    border: 3px solid black;
+    box-shadow: 0 0 6px 1px #0000006b;
+}
+
+.breed-img{
+    object-fit: contain;
+    width: 600px;
+}
+
+.breed-name{
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 3.7rem;
+}
+
+.info-title{
+    font-family: 'Staatliches', cursive;
+    color: #000000;
+    font-size: 2.3rem;
+}
+
+.info-list{
+    font-family: 'Prompt', sans-serif;
+    padding-left: 2rem;
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+.info-item{
+    padding-left: 2rem;
+    background-image: url(../assets/pata.png);
+    background-position: 0 0;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.info-item ul{
+    list-style: disc;
+}
+
+
+.btn-back{
+    background-color: #ff2121;
+    transition: 0.35s;
+    border: #ff2121;
+    color: white;
+}
+
+.btn-back:hover{
+    background-color: black;
+    color: white;
+    border: black;
+}
+

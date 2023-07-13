@@ -1,0 +1,21 @@
+/* header{
+    box-shadow: 0 0 7px 1px black;
+} */
+
+figure{
+    background-color: transparent;
+}
+
+.brand{
+    width: 450px;
+}
+
+.header-nav{
+    background-color: #ff2121;
+    font-size: 22px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: bold;
+}

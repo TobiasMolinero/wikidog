@@ -1,0 +1,27 @@
+.brandTitulo{
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 5em;
+}
+
+.main-contenido{
+    font-family: 'Prompt', sans-serif;
+}
+
+.perro-main{
+    width: 310px;
+}
+
+.info{
+    max-height: max-content;
+}
+
+.title-info{
+    font-family: 'Staatliches', cursive;
+    font-size: 2.8rem;
+    color: black;
+}
+
+.info-text{
+    font-size: 1.1rem;
+}
