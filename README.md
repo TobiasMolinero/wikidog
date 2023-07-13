@@ -1,0 +1,1 @@
+Hi, I'm Tobias, a programmer student and a big fan of dogs, so i created this website about dog breeds to practice. You can spend your time researching and learning about the different breeds of dogs that exist in the world. Or you can try to find the breed of your dog. In any case I hope you enjoy it!
