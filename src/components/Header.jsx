@@ -7,7 +7,7 @@ import '../css/Header.css'
 
 const Header = () => {
   return (
-    <header>
+    <header className='container'>
         <figure className='d-flex justify-content-center'>
             <img src={brand} alt="" className='brand'/>
         </figure>

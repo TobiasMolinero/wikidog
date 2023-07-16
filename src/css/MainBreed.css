@@ -5,7 +5,7 @@
 
 .breed-img{
     object-fit: contain;
-    width: 600px;
+    width: 100%;
 }
 
 .breed-name{

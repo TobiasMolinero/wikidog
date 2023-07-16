@@ -33,7 +33,7 @@ const MainBreed = () => {
     }, [])
 
   return (
-    <section className='breed'>
+    <section className='container breed'>
         <div className="row px-4 mt-4">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center">
                 <figure className='container-img'>
@@ -42,7 +42,7 @@ const MainBreed = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                 <h1 className='breed-name text-center'>{breed.name}</h1>
-                <div className='container-info-list'>
+                <div className='container-info-list mt-3'>
                     <ul className='info-list'>
                         <h2 className='info-title'>Info</h2>
                         <li className='info-item'><b>Group:</b> {breed.breed_group === undefined || breed.breed_group === "" ? ' - ' : breed.breed_group}</li>
@@ -50,18 +50,6 @@ const MainBreed = () => {
                         <li className='info-item'><b>Life Expectancy:</b> {breed.life_span}</li>
                         <li className='info-item'><b>Temperament:</b> {breed.temperament}</li>
                         <li className='info-item'><b>Origin: </b> {breed.origin === undefined || breed.origin === "" ? ' - ' : breed.origin}</li>
-                        {/* <li className='info-item'><b>Weight: </b>
-                            <ul>
-                                <li><b>Imperial:</b></li>
-                                <li><b>Metric:</b></li>
-                            </ul>
-                        </li>
-                        <li className='info-item'><b>Height: </b>
-                            <ul>
-                                <li><b>Imperial:</b></li>
-                                <li><b>Metric:</b></li>
-                            </ul>
-                        </li> */}
                         <div className= 'mt-4'>
                             <Link className='link-back' to={home}>
                                 <button className='btn btn-back'>Back to Home</button>

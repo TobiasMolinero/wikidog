@@ -34,7 +34,7 @@ const Breeds = () => {
     }, [contador])
 
     return (
-        <section className="search-breeds p-5">
+        <section className="container search-breeds p-5">
             <h2 className="text-center title-breeds">Start to search!</h2>
             <div className="row mt-4">
                 <div className="col-12 d-flex justify-content-center">
@@ -45,11 +45,11 @@ const Breeds = () => {
                     </div>
                 </div>
             </div>
-            <div className="row ps-5 pe-5 pb-5">
-                <div className="col-12 cards">
+            <div>
+                <div className="cards">
                     {breeds.map(breed => 
                         <Link className="card-link" key={breed.id} to={raza + breed.id}>
-                            <Card  className="card">
+                            <Card className="card">
                                 <Card.Img variant="top" src={breed.image.url} />
                                 <Card.Body className="card-body">
                                     <Card.Title className="card-title">{breed.name}</Card.Title>
