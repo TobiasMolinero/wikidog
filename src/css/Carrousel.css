@@ -1,6 +1,7 @@
 .carousel{
     background-color: black;
     height: fit-content;
+    width: 100%;
 }
 
 .carousel img{

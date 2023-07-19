@@ -1,13 +1,13 @@
-/* header{
-    box-shadow: 0 0 7px 1px black;
-} */
+header{
+    width: 100%;
+}
 
 figure{
     background-color: transparent;
 }
 
 .brand{
-    width: 450px;
+    width: 100%;
 }
 
 .header-nav{
@@ -18,4 +18,28 @@ figure{
 .nav-link{
     color: black;
     font-weight: bold;
+}
+
+@media (max-width: 1024px) and (min-width: 769px){
+    .brand{
+        width: 450px;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1025px){
+    .brand{
+        width: 450px;
+    }
+}
+
+@media (max-width: 2560px) and (min-width: 1441px){
+    .brand{
+        width: 500px;
+    }
+}
+
+@media (max-width: 5000px) and (min-width: 2560px){
+    .brand{
+        width: 600px;
+    }
 }

@@ -2,6 +2,7 @@ footer{
     background-color: #0e0d0d;
     color: #fcfcfc;
     box-shadow: 0 0 6px 1px black;
+    width: 100%;
 }
 
 footer h3{
@@ -9,7 +10,8 @@ footer h3{
 }
 
 .derechos{
-    background-color: #141414;
+    background-color: transparent;
+    width: 100%;
 }
 
 

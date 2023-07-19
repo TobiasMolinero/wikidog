@@ -34,29 +34,31 @@ const Breeds = () => {
     }, [contador])
 
     return (
-        <section className="container search-breeds p-5">
-            <h2 className="text-center title-breeds">Start to search!</h2>
-            <div className="row mt-4">
-                <div className="col-12 d-flex justify-content-center">
-                    <div className="d-flex gap-3">
-                        <button className="btn btn-danger" onClick={getPrevPage}>Prev</button>
-                        <h5>{contador}/18</h5>
-                        <button className="btn btn-danger" onClick={getNextPage}>Next</button>
+        <section className="breeds">
+            <div className="container p-5">
+                <h2 className="text-center title-breeds">Start to search!</h2>
+                <div className="row mt-4">
+                    <div className="col-12 d-flex justify-content-center">
+                        <div className="d-flex gap-3">
+                            <button className="btn btn-danger" onClick={getPrevPage}>Prev</button>
+                            <h5>{contador}/18</h5>
+                            <button className="btn btn-danger" onClick={getNextPage}>Next</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <div className="cards">
-                    {breeds.map(breed => 
-                        <Link className="card-link" key={breed.id} to={raza + breed.id}>
-                            <Card className="card">
-                                <Card.Img variant="top" src={breed.image.url} />
-                                <Card.Body className="card-body">
-                                    <Card.Title className="card-title">{breed.name}</Card.Title>
-                                </Card.Body>
-                            </Card>
-                        </Link>
-                    )}
+                <div>
+                    <div className="cards">
+                        {breeds.map(breed => 
+                            <Link className="card-link" key={breed.id} to={raza + breed.id}>
+                                <Card className="card">
+                                    <Card.Img variant="top" src={breed.image.url} />
+                                    <Card.Body className="card-body">
+                                        <Card.Title className="card-title">{breed.name}</Card.Title>
+                                    </Card.Body>
+                                </Card>
+                            </Link>
+                        )}
+                    </div>
                 </div>
             </div>
         </section>
